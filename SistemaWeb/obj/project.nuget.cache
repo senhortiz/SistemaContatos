@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Plnpk2pXqCgYg0jM/2zgFxvwQzaYG43oemKweFKL2AQkHP0XLXj8e0/1kqC8szWT2D8upNCVkihWsPu//FP/jw==",
+  "dgSpecHash": "aLTvQFt0ysLmLg0Ugc7W77kERqwxgO9ZD4TCCOU3NHzq6KIUaqsuLnOXXaRf+nm3BLoDV98qwvSu/IypoL9MJQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\hecto\\OneDrive\\Área de Trabalho\\Projetos C#\\SistemaWeb\\SistemaWeb\\SistemaContatos.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,7 @@
     "C:\\Users\\hecto\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\hecto\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\hecto\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\hecto\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\hecto\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\hecto\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\hecto\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

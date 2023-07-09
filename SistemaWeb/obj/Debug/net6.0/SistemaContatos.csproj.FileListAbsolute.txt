@@ -398,3 +398,4 @@ C:\Users\hecto\OneDrive\Área de Trabalho\Projetos C#\SistemaWeb\SistemaWeb\obj\
 C:\Users\hecto\OneDrive\Área de Trabalho\Projetos C#\SistemaWeb\SistemaWeb\obj\Debug\net6.0\ref\SistemaContatos.dll
 C:\Users\hecto\OneDrive\Área de Trabalho\Projetos C#\SistemaWeb\SistemaWeb\bin\Debug\net6.0\LanguageExt.Core.dll
 C:\Users\hecto\OneDrive\Área de Trabalho\Projetos C#\SistemaWeb\SistemaWeb\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutDeslogado.cshtml.rz.scp.css
+C:\Users\hecto\OneDrive\Área de Trabalho\Projetos C#\SistemaWeb\SistemaWeb\bin\Debug\net6.0\Newtonsoft.Json.dll

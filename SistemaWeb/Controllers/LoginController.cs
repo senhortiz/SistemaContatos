@@ -1,5 +1,6 @@
 ﻿using LanguageExt.Common;
 using Microsoft.AspNetCore.Mvc;
+using SistemaContatos.Helper;
 using SistemaContatos.Models;
 using SistemaContatos.Repositorio;
 
@@ -8,15 +9,26 @@ namespace SistemaContatos.Controllers
     public class LoginController : Controller
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;
+        private readonly ISessao _sessao;
 
-        public LoginController(IUsuarioRepositorio usuarioRepositorio)
+        public LoginController(IUsuarioRepositorio usuarioRepositorio, ISessao sessao)
         {
             _usuarioRepositorio = usuarioRepositorio;
+            _sessao = sessao;
         }
 
         public IActionResult Index()
         {
+            if (_sessao.BuscarSessaoUsuario() != null) return RedirectToAction("Index", "Home");
+
             return View();
+        }
+
+        public IActionResult Sair()
+        {
+            _sessao.RemoverSessaoUsuario();
+
+            return RedirectToAction("Index", "Login");
         }
 
         [HttpPost]
@@ -32,6 +44,7 @@ namespace SistemaContatos.Controllers
                     {
                         if (usuario.SenhaValida(loginModel.Senha))
                         {
+                            _sessao.CriarSessaoUsuario(usuario);
                             return RedirectToAction("Index", "Home");
                         }
                         
